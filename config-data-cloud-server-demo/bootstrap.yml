@@ -2,10 +2,3 @@
 eureka:
   instance:
     instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
-
----
-spring:
-  profiles: cold-noun
-  application:
-    name: noun
-words: icicle,refrigerator,blizzard,snowball
